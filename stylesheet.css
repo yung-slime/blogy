@@ -1,0 +1,73 @@
+:root {
+    --interfaceColor: #d90429;
+    --headingColor: #edf2f4;
+    --contentColor: #2b2d42;
+    --pageAccentColor: #8d99ae2d;
+
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    background-color: var(--headingColor);
+}
+
+h1 {
+    font: normal small-caps bold 2.5rem "DejaVu Sans";
+    color: inherit;
+}
+
+nav {
+    background-color: var(--interfaceColor);
+    color: var(--headingColor);
+    
+}
+
+footer {
+    background-color: var(--interfaceColor);
+    color: var(--headingColor);
+}
+
+header {
+    color: var(--contentColor);
+}
+
+section {
+    color: var(--contentColor);
+    padding: 2.5vh 5vw;
+    background-color: var(--pageAccentColor);
+    border-radius: 6px;
+    margin: 2.5vh 10vw;
+    font-family: Chilanka;
+    box-sizing: border-box;
+}
+
+.customer-svg{
+    padding: 0 2%;
+    float:inline-start;
+    width: 25svw; /* Rendered Aspect Ratio (RAR) = 1:1 , so aint got to mention the height. */
+    max-width: 100px;
+}
+
+.textContent1{
+    float: inline-start; 
+    /*
+     this one makes the section element adapts the size to contain the img(floating child) and avoid overflow.
+    */
+}
+
+.textContent2{
+    clear: inline-start;
+    /*
+    this gon make the section element move downwards and dont get into the floating element.
+    */
+    float:inline-start
+}
+
+.pictorialRepr{
+    float:inline-start;
+    padding: 2px 2svw;
+}
+.textContent3{
+    clear:inline-start;
+}
