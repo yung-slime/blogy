@@ -38,7 +38,7 @@ section {
     background-color: var(--pageAccentColor);
     border-radius: 6px;
     margin: 2.5vh 10vw;
-    font-family: Chilanka;
+    font-family: Chilanka, monospace;
     box-sizing: border-box;
 }
 
