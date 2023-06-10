@@ -61,7 +61,7 @@ section {
     /*
     this gon make the section element move downwards and dont get into the floating element.
     */
-    float:inline-start
+    float:inline-start;
 }
 
 .pictorialRepr{
