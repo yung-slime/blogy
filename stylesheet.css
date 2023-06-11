@@ -20,6 +20,7 @@ h1 {
 nav {
     background-color: var(--interfaceColor);
     color: var(--headingColor);
+    width: 100%;
     
 }
 
@@ -44,30 +45,30 @@ section {
 
 .customer-svg{
     padding: 0 2%;
-    float:inline-start;
+    float:left;
     width: 25svw; /* Rendered Aspect Ratio (RAR) = 1:1 , so aint got to mention the height. */
     max-width: 100px;
 }
 
 .textContent1{
-    float: inline-start; 
+    float: left; 
     /*
      this one makes the section element adapts the size to contain the img(floating child) and avoid overflow.
     */
 }
 
 .textContent2{
-    clear: inline-start;
+    clear: left;
     /*
     this gon make the section element move downwards and dont get into the floating element.
     */
-    float:inline-start;
+    float:left;
 }
 
 .pictorialRepr{
-    float:inline-start;
+    float:left;
     padding: 2px 2svw;
 }
 .textContent3{
-    clear:inline-start;
+    clear:left;
 }
